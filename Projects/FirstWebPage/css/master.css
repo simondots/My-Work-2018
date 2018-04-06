@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+*{
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+
+body {
+  margin:0;
+  font-family:'Raleway',sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin:auto;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.clearfix::after,
+section::after,
+footer::after {
+  content: '';
+  display: block;
+  clear: both;
+
+}
+                                                  /* col sistema */
+
+[class^=col-] {
+  width: 100%;
+  margin-top: 1em;
+
+  /* reminder! betkuri klase kuri prasides column^ gaus float !
+  reminder #2! footeriui clearfix uzdeti */
+}
+
+[class^=col-]:first-child {
+margin-top: 0;
+}
+
+.col-1 {
+  width: 33.33%;
+  float: left;
+}
+@media (min-width:120px) {
+[class^=col-] {
+    float: left;
+    padding: 0 .5em;
+    margin-top: 0;
+}
+[class^=col-]:first-child {
+padding-left: 0;
+}
+
+[class^=col-]:last-child {
+  padding-left: 0;
+}
+.col-3 {
+  width: 50%;
+}
+.col-1 {
+  width: 16.6%;
+}
+
+                                                /* typography */
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5em;
+  font-weight: 900;
+  margin-top: 1em;
+}
+
+.title span{
+  font-weight: 700;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.title-fooA {
+  margin: 0 0 .5em;
+}
+
+.unstyled-list {
+  margin-top: 0px;
+  padding: 0px;
+  list-style-type: none;
+  margin-left: 40vh;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.7rem;
+  margin-top: 0 auto;
+  margin-bottom: 3em;
+}
+h2 {
+  font-weight: 500;
+  font-size: 2.7rem;
+  margin-top: 0 auto;
+  margin-bottom: 3em;
+  margin-left: 7em;
+
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.5;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+.copyright {
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  padding-right: 30px;
+  float: left;
+}
+
+                                  /* button */
+
+.button {
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .5em 1.75em;
+}
+
+.button-accent {
+  color: rgb(240, 180, 1);
+  border-color: rgb(62, 245, 168);
+
+}
+
+.button-accent:hover,
+.button-accent:focus {
+  background: rgb(255, 213, 89);
+  color: rgb(0, 0, 0);
+
+}
+@media (min-width:60rem) {
+  .button {
+    font-size: 1.5rem;
+}
+
+.button-small {
+  font-size: .6rem;
+  font-weight: 700;
+}
+.button-dark{
+  color: #232323;
+  border-color: #232323;
+
+}
+
+.button-dark:hover,
+.button-dark:focus {
+  background: rgb(247, 244, 160);
+  color: rgb(0, 53, 68);
+
+}
+
+                                    /* header */
+
+header {
+  position: absolute;
+  margin: 1em;
+  left: 0;
+  right: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin:1em;
+}
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .5em;
+  color: rgb(0, 192, 252);
+}
+
+nav a:hover,
+nav a:focus {
+  color: rgb(245, 225, 103);
+}
+
+                                  /* main body */
+
+.home-nojauslaivas {
+  background-image: url(../img/bg-hero.jpg);
+  padding: 10em 0;
+  color: rgb(221, 176, 43);
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0;
+  background-attachment: fixed;
+}
+
+.home-about-textbox{
+background-color: #232323;
+padding: 4em;
+width: 100vw;
+margin-left: -2.5%;
+outline: 2px solid rgb(6, 245, 173);
+outline-offset: -2.5em;
+color: rgb(62, 245, 168);
+position: relative;
+}
+.home-about-textbox h1{
+  color: rgb(0, 237, 138);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: .75em;
+  background: #232323;
+  padding: 0 .145em;
+}
+
+                            /* portfolio */
+.portfolio  {
+            margin: 3em 0 0;
+}
+
+.port-item {
+            margin: 0;
+            position: relative;
+}
+
+.port-item img {
+            display: block;
+            float: left;
+}
+
+.port-desc {
+    position: absolute;
+    z-index: 100;
+    bottom: 3em;
+    left: 3em;
+    right: 3em;
+    color: white;
+    background: rgba(0, 0, 0,.7);
+    padding-bottom:2em;
+    margin-bottom: 10px;
+    width: 35vh;
+}
+.port-desc p{
+    margin: 1em;
+}
+
+
+                          /* footer action */
+
+.fooA {
+background-color: rgb(235, 252, 255);
+padding: 5em 0;
+color: rgb(8, 4, 14);
+background-blend-mode: soft-light;
+}
+
+
+                                  /* FOOTER */
+
+
+footer {
+background: #232323;
+color: #fff;
+text-align: center;
+padding: 3em 0 0 0;
+}
+
+                                    /*efektas  parallax--box */
+
+.parallax--box {
+  transition: initial;
+}
+
+
+                                     /* media */
+
+ @media (min-width:240px) {
+   p {
+     font-size: 1.2rem;
+     line-height: 1.6;
+     text-align:center;
+   }
+   .title {
+     font-size: 3.7rem;
+   }
+   .logo {
+     float: left;
+   }
+  nav {
+    float:right;
+  }
+   .home-nojauslaivas {
+     height: 100vh;
+     padding-top: 35vh;
+}
+   h1 {
+     font-size: 2.5rem;
+   }
+    .home-about-textbox h1 {
+      top: 1em;
+      transform: translateX(0);
+      left: 3.25rem;
+    }
+
+    .home-about {
+      background-image:
+       url(../img/nj11.jpg);
+       background-repeat: no-repeat;
+       padding-bottom: 10em;
+
+    }
+
+    .home-about-textbox{
+    width: 50%;
+    padding: 7em;
+    outline-offset: -3.75em;
+    margin-left: -2.5%;
+    text-align: left;
+    top: -5em;
+    box-shadow: 0 0 4em 0 rgba(0,0,0,.5);
+    }
+
+    .port-item {
+      width: 33.3%;
+      overflow: hidden;
+    }
+    .port-desc {
+      transform: translateY(150%);
+    }
+    .port-item:hover ,
+    .port-desc {
+      transform:translateY(0%);
+    }
+}
+
+   @media (min-width:126px) {
+     h1 {
+       font-size: 2rem;
+     }
+      .home-about-textbox h1 {
+        top: 2em;
+        left: 5em;
+        padding: 0.325em;
+      }
+
+      @media (min-width:124px) {
+        .port-item {
+          width: 50%;
+          float: left;
+        }
+        .unstyled-list {
+          padding: 0px;
+          list-style-type: none;
+          margin-top: 0px;
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
