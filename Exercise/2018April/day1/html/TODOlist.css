@@ -1,0 +1,16 @@
+li {
+	border: 3px solid lightblue;
+}
+
+
+#specialbaby {
+	background : lightgreen;
+}
+
+
+.completed {
+	text-decoration: line-through;
+	/*#name of id lets to select one type*/
+	/*.name of class allows as many of we want to style types*/
+	/**/
+}

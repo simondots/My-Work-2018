@@ -1,0 +1,45 @@
+h1 {
+	color: red
+}
+li {
+	color: blue
+}
+h4 {
+	color: orange
+
+}
+
+ol	{
+
+/*	background-color: rgba(150,50,50,.6);
+
+
+	border-color: rgba(111,30,20,.8);
+
+	border-width: 100px;
+
+	border-style: solid;*/
+	/*viska galima rasyti i vienoje eiluteme!*/
+
+	/*border: rgba(120,33,33,.4);border-width: 100px;border-style: solid;*/
+
+	border:  8px dashed rgba(121,11,32,.5);
+
+	/*borders dashed, solid and many other options*/
+}
+/*color names*/
+/*color #FF5533*/
+/*color rgb tag*/
+/*color rgba tag*/
+/*"background-color*/
+/*background in body tage*/
+/*background : url jeigu image*/
+/*background-repeat:no-repeat kas vienas salia kita mazas paveiksliukas nesimestu*/
+/*background-size:cover per visa ekrana visas paveiksliukas*/
+
+/*
+body {
+	background:url(https://static.lolwallpapers.net/2015/07/Get-Jinxed--1024x576.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;*/
+

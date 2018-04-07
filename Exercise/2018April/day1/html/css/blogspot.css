@@ -1,0 +1,54 @@
+body {
+
+	border: 20px solid rgba(30,25,159,0.6);
+     
+    padding: 20px;
+
+    max-width: 7000px;
+
+    width: 80%
+
+    margin:20px auto;
+
+    font-family: 'Sacramento', cursive;
+}
+
+.container {
+
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.quote {
+
+	border-left: 5px solid hotpink;
+	padding-left: 2px
+
+}
+
+.date {
+
+	text-align: left;
+   
+    color: rgba(59,81,66,0.4);
+
+    letter-spacing: 0.2rem;
+
+    text-transform: uppercase;
+}
+
+.title {
+
+	font-size: 20px;
+
+	color: rgba(8, 107, 177,0.3);
+}
+	hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
