@@ -1,0 +1,58 @@
+
+* {
+
+  box-sizing: border-box;
+}
+/* remelius suskaiciuoja i ploti borderbox */
+
+div {
+
+  border: dotted 3px;
+  background-color: rgb(45, 129, 17);
+  height: auto;
+}
+
+.pirmas,
+.antras,
+.ketvirtas,
+.penktas {
+
+width: 35%;
+float: left;
+margin: 1%;
+}
+
+.trecias {
+
+  width: 72%;
+  margin-left: 1%;
+}
+.fixfloat {
+
+  clear: both;
+}
+/* sutvarkyti float  */
+
+
+ /* ----------TABLET MEDIA------- */
+
+@media (max-device-width:768px) {
+
+.pirmas ,
+.antras  {
+
+width: 90%;
+
+}
+
+
+/* ---------MOBILE MEDIA--------- */
+
+ @media (min-width:320px) {
+
+  .antras,
+  .trecias {
+
+  display: none;
+
+}

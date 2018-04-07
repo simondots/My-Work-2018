@@ -1,0 +1,235 @@
+.bacon h2 {
+
+background-color: lightblue;
+
+}
+
+.bacon {
+
+  border-style: solid;
+
+  border-width: 0.5px 2.3px 0.5px 2.3px;
+
+  background-color: darkgreen;
+}
+
+
+.bacon p {
+color: rgb(70, 78, 148)
+}
+
+.fish h1 {
+
+  background-color: snow;
+
+}
+
+.fish {
+
+  border-style: dotted;
+
+  border-width: 1px 4.5px 1px 4.5px;
+
+  background-color: lightblue;
+}
+
+.fish p{
+
+  color: rgb(128, 18, 48);
+
+}
+
+.pork h3{
+
+  background-color: rgb(12, 40, 227);
+
+}
+
+.pork {
+
+  border-style: solid;
+
+  border-width: 3.3px 1.2px 1.7px 1.9px;
+
+  background-color: rgb(142, 23, 101);
+}
+
+.pork p {
+
+  color: rgb(54, 21, 45);
+}
+
+.chicken h4 {
+
+  background-color: rgb(241, 233, 92);
+
+}
+
+.chicken {
+
+  border-style: dotted;
+
+  border-width: 1.2px 5.2px 2.4px 10.4px;
+
+  background-color: rgb(116, 91, 207);
+}
+
+.chicken p {
+
+  color: rgba(224, 10, 110,0.6);
+}
+
+.beaf h2 {
+
+  background-color: rgb(186, 128, 46);
+}
+
+.beaf {
+
+  border-style: dashed;
+
+  border-width: 4.1px 1.5px 4.1px 1.5px;
+
+  background-color: rgb(189, 21, 146);
+}
+
+.beaf p{
+
+  color: rgb(194, 45, 244);
+}
+
+
+.vegetables h1 {
+
+  background-color: rgb(135, 99, 98);
+
+}
+
+.vegetables {
+
+  border-style: double;
+
+  border-width: 6.9px 1.8px 6.9px 1.8px;
+
+  background-color: rgb(110, 48, 207);
+}
+
+.vegetables p {
+
+  color: rgb(247, 211, 45);
+}
+
+.energy h2 {
+
+  background-color: rgb(125, 96, 176);
+
+}
+
+.energy {
+
+  border-style:groove;
+
+  border-width: 6.6px 3.3px 6.6px 3.3px;
+
+  background-color: rgb(132, 24, 164);
+}
+
+.energy p{
+
+  color: rgb(99, 61, 20);
+}
+
+.beer h3 {
+
+  background-color: rgb(228, 84, 200);
+}
+
+.beer {
+
+  border-style: ridge;
+
+  border-width: 5px 3px 5px 3px;
+
+  background-color: rgb(142, 187, 102);
+}
+
+.beer p {
+
+  color: rgb(58, 66, 254);
+}
+
+.lamb h1 {
+
+  background-color: rgb(47, 69, 179);
+}
+
+.lamb {
+
+  border-style: inset;
+
+  border-width: 4.2px 3.2px 4.2px 3.2px;
+
+  background-color: rgb(15, 58, 161);
+}
+
+.lamb p {
+
+  color: rgb(136, 111, 91);
+}
+
+.eal h4 {
+
+  background-color: rgb(50, 164, 9);
+}
+
+.eal {
+
+  border-style:outset;
+
+  border-width: 4px 3px 4px 3px;
+
+  background-color:rgb(231, 145, 229);
+}
+
+.eal p {
+
+  color: rgb(43, 78, 6);
+}
+
+.shark h2{
+
+  background-color: rgb(119, 227, 61);
+}
+
+.shark {
+
+  background-color: rgb(161, 82, 27);
+
+  border-style:none ;
+
+
+}
+
+.shark p {
+
+  color: rgb(15, 247, 239);
+}
+
+.whale h1 {
+  background-color: rgb(169, 207, 104);
+
+}
+
+.whale {
+
+  border-style:dotted dashed double solid;
+
+  border-width: 10px 6px 10px 6px;
+
+  background-color: rgb(99, 226, 2);
+}
+
+.whale p {
+
+  color: rgb(85, 166, 151);
+}

@@ -1,0 +1,24 @@
+.header{
+  height: 10vh;
+  background-color:rgb(7, 111, 249);
+  margin-bottom: 1vh;
+}
+.main{
+  height: 70vh;
+  background-color:rgb(181, 249, 80);
+  margin-right: 1vh;
+}
+.aside{
+  background-color:rgb(236, 176, 216);
+  height: 70vh;
+}
+.nav{
+  height: 70vh;
+  background-color:rgb(58, 127, 140);
+  margin-right: 1vh;
+}
+.footer{
+  height: 10vh;
+  margin-top: 1vh;
+  background-color:rgb(88, 192, 252);
+}

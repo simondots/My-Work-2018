@@ -1,0 +1,46 @@
+.aukstis-100 {
+  height: 100px;
+}
+
+.aukstis-200 {
+  height: 200px;
+}
+
+.aukstis-300 {
+  height: 300px;
+}
+
+.aukstis-400 {
+  height: 400px;
+}
+
+.aukstis-500 {
+  height: 500px;
+}
+
+.aukstis-600 {
+  height: 600px;
+}
+
+.wrapper {
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 10px;
+}
+
+.nav {
+  margin-right:50px;
+}
+
+.aside {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+.article {
+
+  margin-left: 10px;
+}

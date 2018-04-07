@@ -1,0 +1,61 @@
+body {
+
+  font-family: 'Berkshire Swash', cursive;
+}
+div {
+
+  color: rgb(110, 52, 187);
+
+  border-style: dashed;
+
+  border-width: 2px 4px 2px 4px;
+
+  display: inline-block;
+
+  margin:15px;
+
+  text-align: center;
+}
+
+.Dviratis h2 {
+
+  margin: auto;
+  color:rgb(139, 170, 94);
+}
+
+.TV h2 {
+  margin: auto;
+  color: rgb(172, 11, 89);
+}
+
+.PS4 h2 {
+  margin: auto;
+  color: rgb(180, 3, 169);
+
+}
+
+.Wii h2 {
+  margin: auto;
+  color: rgb(57, 64, 140);
+
+}
+
+.xBox h2 {
+
+  margin: auto;
+  color: rgb(79, 214, 108);
+}
+
+a {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+
+}

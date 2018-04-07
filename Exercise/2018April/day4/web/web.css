@@ -1,0 +1,261 @@
+* {
+
+  box-sizing: border-box;
+}
+html {
+
+  background-color:rgba(159, 104, 208, 0.21);
+
+ font-family: 'Italianno', cursive;
+
+
+}
+
+body {
+
+  width: 1024px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.fixfloat {
+
+  clear: both;
+}
+
+
+
+h1 {
+
+  color:rgb(92, 0, 142);
+
+  text-align: center;
+}
+
+.menu-juosta {
+
+  background-color: rgb(194, 92, 121);
+
+  height: 80px;
+}
+
+
+/*  */
+                                    /* start menu */
+
+
+nav ul {
+
+  width: 100%;
+
+
+
+  height: 53px;
+
+  margin: 0;
+
+  padding: 0;
+
+  padding-top: : 28px;
+
+
+
+
+}
+
+
+
+  nav li {
+
+    float: left;
+
+    width: 25%;
+
+    text-align: center;
+
+    list-style: none;
+
+    text-transform: uppercase;
+
+    font-size: 20px;
+
+    padding-top: 29px;
+
+    padding-bottom: 29px;
+
+    text-shadow: 1px 1px 15px lightgreen;
+
+
+  }
+
+  li:hover {
+
+background-color: rgb(218, 101, 40);
+
+
+
+  }
+
+
+                                              /* end menu */
+
+
+
+      .search      {
+
+        width: 40% ;
+
+        float: left;
+
+
+      }
+
+      .mano-float {
+
+        float: left;
+
+
+      }
+
+      nav {
+
+        width: 60%;
+      }
+
+
+
+
+}
+
+    .search input {
+
+      width: 60%;
+
+
+
+    }
+
+    .search form {
+
+      padding-top: 16px;
+
+      margin-left: 55px;
+
+      padding-left: 32px;
+
+      padding-bottom: 31px;
+
+
+    }
+
+
+.mygtukas {
+
+  border: none;
+
+  padding: 15px 8px 15px 8px;
+
+  background-color:rgb(59, 230, 65) ;
+
+  color: black;
+
+  box-shadow: 1px 1px 15px black;
+
+ text-transform: uppercase ;
+
+ font-weight: bold;
+}
+
+/* end header  */
+
+
+/* start wrapper */
+
+
+.wrapper {
+
+  background-color: rgb(155, 226, 200);
+
+/* overflow: hidden; */
+
+
+
+}
+
+main {
+
+  background-color: rgb(244, 240, 234);
+
+  width: 75%;
+
+  min-height: 200px;
+
+
+
+}
+
+aside {
+
+
+  background-color: rgb(104, 252, 163);
+
+  width: 20%;
+/*
+  min-height: 200px; */
+
+  margin-left: 5%;
+
+  padding-bottom: 9999px;
+
+  margin-bottom: -9999px;
+
+/* automatiskai apskaiciuos aside bei teciui uzdedam overflow:hidden */
+}
+
+h1,h2 {
+
+  text-align: center;
+
+  text-shadow: 1px 2px 20px black;
+
+  font-size: 40px;
+}
+
+p {
+
+text-align: left;
+
+font-size: 24px;
+
+}
+
+h3 {
+
+  font-size: 30px;
+
+  color: rgb(159, 95, 240);
+}
+
+aside.mano-float {
+
+font-size: 55px;
+
+text-align: center;
+}
+
+
+              /* footer starts */
+
+
+.footeris {
+
+  background-color: rgb(255, 255, 255);
+
+  min-height: 100px;
+
+
+
+
+}

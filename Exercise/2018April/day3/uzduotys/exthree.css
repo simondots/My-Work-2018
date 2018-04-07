@@ -1,0 +1,87 @@
+body {
+  position: relative;
+}
+
+.block1 {
+  position: absolute;
+  top: 0px;
+  bottom: 100px;
+  left: 0px;
+  width: 100px;
+  height: 200px;
+  background-color:rgb(207, 136, 215);
+}
+
+.block2 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 200px;
+  right: 200px;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(65, 122, 198);
+}
+
+.block3 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 200px;
+  height: 200px;
+  background-color:rgb(238, 95, 233);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) { ??? */
+
+
+/* arba .block1 {
+  float: left;
+  width: 200px;
+}
+
+.block2 {
+  float: right;
+  width: 200px;
+}
+
+.block3 {
+  margin-left: 200px;
+  margin-right: 200px;
+} */

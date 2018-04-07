@@ -1,0 +1,33 @@
+//kintamiejii
+/* kintamiejii */
+//h1
+$spalva1 : red;
+$spalva2 : blue;
+
+$aukstis1: 29px;
+$aukstis2: 60px;
+$svoris1: 600;
+$svoris2 : 100;
+$plotis: 350px;
+//p
+$ptext: 16px;
+$pweight: 100;
+
+
+h1 {
+    color: $spalva1;
+    font-size: $aukstis1;
+    font-weight: $svoris1;
+}
+h2 {
+      color: $spalva2;
+      font-size: $aukstis2;
+      font-weight: $svoris2;
+}
+p {
+
+      font-size: $ptext;
+      font-weight: $pweight;
+      width: $plotis;
+
+}
